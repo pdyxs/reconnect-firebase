@@ -1,5 +1,5 @@
 import { checkIfPropsContains, checkIfOrdered } from 'reconnect';
-import { branch } from 'recompose';
+import { branch, getContext } from 'recompose';
 import { compose } from "redux";
 import { connect } from "react-redux";
 import { withName } from 'reramble';
