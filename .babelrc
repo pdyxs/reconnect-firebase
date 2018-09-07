@@ -4,6 +4,7 @@
     "flow-react-proptypes",
     "add-module-exports",
     "transform-object-rest-spread",
-    "transform-flow-strip-types"
+    "transform-flow-strip-types",
+    "transform-class-properties"
   ]
 }
