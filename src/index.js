@@ -1,1 +1,24 @@
-// components exported here will be available in your libary bundle
+import AuthWidget from './AuthWidget';
+import PrivateRoute from './PrivateRoute';
+import {
+  authConnect,
+  checkIfAuth,
+  connectFirebase,
+  connectFirestore,
+  connectStore
+} from './connect';
+import { authReducer, authLogin } from './authenticate';
+
+export {
+  AuthWidget,
+  PrivateRoute,
+
+  connectFirebase,
+  connectFirestore,
+  connectStore,
+  authConnect,
+  checkIfAuth,
+
+  authReducer,
+  authLogin
+};
