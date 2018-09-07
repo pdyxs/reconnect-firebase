@@ -3,6 +3,7 @@ import { branch, getContext } from 'recompose';
 import { compose } from "redux";
 import { connect } from "react-redux";
 import { withName } from 'reramble';
+import PropTypes from 'prop-types';
 import { firebaseConnect, firestoreConnect, isLoaded, isEmpty } from 'react-redux-firebase';
 
 export function connectFirebase() {

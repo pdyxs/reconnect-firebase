@@ -26,6 +26,7 @@
     "babel-preset-react": "^6.0.15",
     "babel-preset-stage-0": "^6.0.15",
     "flow-bin": "^0.37.4",
+    "prop-types": "^15.6.2",
     "react": "^16.4.2",
     "react-decorators": "git+https://github.com/pdyxs/react-decorators.git",
     "react-dom": "^16.4.2",
