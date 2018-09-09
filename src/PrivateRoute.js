@@ -3,7 +3,7 @@ import { compose } from "redux";
 import { connect } from "react-redux";
 import { firebaseConnect, isLoaded, isEmpty } from 'react-redux-firebase';
 import { Route, Redirect, Switch } from 'react-router-dom';
-import { LoadingIcon } from 'react-decorators';
+import { LoadingIcon } from '@pdyxs/re-decorate';
 
 const mapStateToProps = (state) => {
   return {

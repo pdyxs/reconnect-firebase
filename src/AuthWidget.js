@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import { isLoaded, isEmpty } from 'react-redux-firebase';
 import { authLogin } from './authenticate';
 import { connectFirebase, authConnect } from './connect';
-import { LoadingIcon } from 'react-decorators';
+import { LoadingIcon } from '@pdyxs/re-decorate';
 
 const mapStateToProps = (state) => {
   return {

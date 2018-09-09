@@ -1,4 +1,4 @@
-import { checkIfPropsContains, checkIfOrdered } from 'reconnect';
+import { checkIfPropsContains, checkIfOrdered } from '@pdyxs/re-connect';
 import { branch, getContext } from 'recompose';
 import { compose } from "redux";
 import { connect } from "react-redux";
