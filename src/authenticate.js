@@ -17,6 +17,7 @@ function authIsLoggingIn(bool) {
 }
 
 export function authLogin(firebase, scopes) {
+  scopes = scopes || [];
   return (dispatch) => {
     dispatch(authIsLoggingIn(true));
     firebase.login({
