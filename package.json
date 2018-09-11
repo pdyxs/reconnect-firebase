@@ -14,7 +14,7 @@
     "url": "https://github.com/pdyxs/reconnect-firebase.git"
   },
   "dependencies": {
-    "@pdyxs/re-connect": "0.0.2",
+    "@pdyxs/re-connect": "^0.1.0",
     "@pdyxs/re-decorate": "^0.1.0",
     "babel-core": "^6.0.20",
     "babel-eslint": "^7.1.0",
