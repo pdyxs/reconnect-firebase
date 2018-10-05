@@ -50,7 +50,10 @@ class AuthWidget extends Component {
           {
             isLoaded(this.props.profile) ?
             (
-              <span>Logged in as {this.props.profile.displayName}</span>
+              <span className="small">
+                <span className="d-none d-md-inline">Logged in as </span>
+                {this.props.profile.displayName}
+              </span>
             ) : (
               <LoadingIcon />
             )
