@@ -19,7 +19,7 @@ const enhance = compose(
 );
 
 const PrivateRoute = ({
-  component: Component, auth, ...rest
+  component: Component, auth, email, ...rest
 }) => {
   if (!auth || !isLoaded(auth)) {
     return (
@@ -27,7 +27,7 @@ const PrivateRoute = ({
     );
   }
 
-  if (isEmpty(auth)) {
+  if (isEmpty(auth) || (email && email != auth.email)) {
     return (
       <Switch>
         <Route exact path='/' />
