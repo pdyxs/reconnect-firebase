@@ -1,6 +1,6 @@
 {
   "name": "@pdyxs/re-connect-firebase",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Helper library and components for firebase auth",
   "main": "dist/index.js",
   "license": "APACHE",
